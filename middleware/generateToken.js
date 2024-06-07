@@ -1,6 +1,18 @@
 const jwt = require('jsonwebtoken');
 require('dotenv').config(); // Load environment variables
 
+
+
+
+// const crypto = require('crypto');
+
+// function generateSecretKey(length = 32) {
+//     return crypto.randomBytes(length).toString('base64');
+// }
+
+// const secretKeys = generateSecretKey();
+// console.log("------------->>>>>>>",secretKeys);
+
 // Secret key for signing the token (replace with your own secret key)
 const secretKey = process.env.SECRET_KEY;
 
